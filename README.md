@@ -1,2 +1,0 @@
-# FashsionGram
-Instagram for Clothes

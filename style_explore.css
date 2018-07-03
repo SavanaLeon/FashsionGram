@@ -1,0 +1,48 @@
+*  h1 {
+  font-style: italic;
+  color: #8e7cc3;
+  margin-right:30%;
+  margin-left:10%;
+  margin-left:30%;
+  text-align:center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*
+body {
+    background-color: lightblue;
+} 
+body {
+  text-align:Justify;
+  margin-right:15%;
+  margin-left:15%; 
+  font-family: "Bento Sans", "Helvetica Neue", helvetica, arial, sans-seri
+  
+}
+
+Form {
+  Display:inline-block;
+}
+
+ 
+
+* li {
+    float: left;
+}
+
+li a {
+    display: block;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    background-color: #111;
+}
