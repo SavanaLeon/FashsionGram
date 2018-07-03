@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  
+  <!-- this is the navbar, do not mees with it-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/style_clothing.css"> 
+<body>
+
+
+<div id="navbar">
+  <a href="https://fashion-gram.glitch.me/feed.html">Feed</a>
+  <a href="https://fashion-gram.glitch.me/explore.html">Explore</a>
+  <a href="#Post">Post</a>
+  <a href="#Q/A">Q/A</a>
+</div>
+
+<div style="padding:15px 15px 10px;font-size:30px">
+  <p><strong>Seasons</strong></p>
+</div>
+
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("navbar").style.top = "0";
+    } else {
+        document.getElementById("navbar").style.top = "-50px";
+    }
+}
+</script>
+
+  <!-- End of navbar-->
+  
+  
+  
+  <!--button #1-->
+  
+<style>
+ .container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: black;
+} 
+  </style>
+
+  
+  
+  
+<div>
+  <ul2>
+    
+    <div class="container">
+          <li><img src="http://fazewp.fazemediainc.netdna-cdn.com/cms/wp-content/uploads/2015/04/Spring-Outfit-600x600.jpg"></li>   
+        <button class="btn">Spring</button>
+      </div>
+    <div class="container">
+           <li><img src="https://i.pinimg.com/originals/e5/03/a8/e503a8736a9719ef4162d6449bafe855.jpg"></li>
+         <button class="btn">Winter</button>
+        </div>
+  </ul2>
+  
+  <ul3>
+    
+      <div class="container">
+            <li><img src="https://i.pinimg.com/736x/dc/6c/2b/dc6c2bcc90c4264b08b64a164d962133--summer-ootd-summer-wear.jpg"></li>   
+          <button class="btn">Summer</button>
+      </div>
+      <div class="container">
+             <li><img src="http://thetreschic.co/files/2013/09/178314466469371035.jpg"></li>
+           <button class="btn">Fall</button>
+      </div>
+  </ul3>
+
+  </div>
+  
+</body>
+  </head>
+</html>

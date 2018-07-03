@@ -1,0 +1,78 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: black;
+}
+</style>
+</head>
+<body>
+
+<h2>Button on Image</h2>
+<p>Add a button to an image:</p>
+
+<div class="container">
+  <img src="https://gloimg.zafcdn.com/zaful/pdm-product-pic/Clothing/2017/12/04/grid-img/1513712621177934845.jpg" alt="Dress" style="width:500px; length:500px">
+  <button class="btn">Button</button>
+</div>
+  
+<ul>
+  <div class="container">
+      <li><img src="https://gloimg.zafcdn.com/zaful/pdm-product-pic/Clothing/2017/12/04/grid-img/1513712621177934845.jpg"></li>   
+    <button class="btn">Shirts</button>
+  </div>
+   <div class="container">
+       <li><img src="https://media.istockphoto.com/photos/dresses-picture-id500395950?k=6&m=500395950&s=612x612&w=0&h=qfakQnB32SxOZgeBMMEmSJm3XwDNBeEVI8Ojp-xVriQ="></li>
+     <button class="btn">Pants</button>
+  </div>
+    <li><img src="https://media.istockphoto.com/photos/dresses-picture-id500395950?k=6&m=500395950&s=612x612&w=0&h=qfakQnB32SxOZgeBMMEmSJm3XwDNBeEVI8Ojp-xVriQ="></li>
+    <li><img src="3.jpg"></li>
+    <li><img src="4.jpg"></li>
+    <li><img src="5.jpg"></li>
+    <li><img src="6.jpg"></li>
+</ul>
+  <style>
+  ul {
+  white-space: nowrap;
+}
+
+ul, li {
+  list-style: none;
+  display: inline;
+}</style>
+
+</body>
+</html>
+
+
